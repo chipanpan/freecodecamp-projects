@@ -1,0 +1,53 @@
+html, body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    min-width:260px;
+    color:rgb(63, 59, 52);
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    }
+h2 {
+    font-size: 25px;
+}
+blockquote {
+    font-style: italic;
+    margin: 20px;
+}
+#main {
+  margin:30px auto;
+  padding:15px;
+  border:0px solid;
+  border-radius:10px;
+  background: gainsboro;
+}
+#img-div {
+  margin: -5px;
+  margin-top: 20px;
+  width: 100%;
+  border: 10px solid white;
+  background:white;
+}
+#img-caption {
+  margin: 10px;
+  padding: 10px;
+}
+#img {
+  width: 100%;
+  height: auto;
+  display: block; 
+  margin: auto;
+}
+p {
+  max-width:650px;
+  margin:0 auto;
+  text-align:left;
+}
+ul {
+  max-width: 650p;
+  margin-left: 350px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+}

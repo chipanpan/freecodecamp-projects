@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>JOB SURVEY</h1>
+        <P id="description">We'd like to hear about your job experience. Thank you for joining.</P>
+        <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+            <div class="row-tab">
+                <div class="label">
+                    <label id="name-label" for="name">*Name</label>
+                </div>
+                <div class="right-tab">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label id="email-label" for="email">*Email</label>
+                </div>
+                <div class="right-tab">
+                    <input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your email address" required>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label id="age-label" for="age">*Age</label>
+                </div>
+                <div class="right-tab">
+                    <input autofocus type="number" name="age" id="age" min="1" max="100" class="input-field" placeholder="Enter your age" required>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label id="gender-label" for="gender">*Gender</label>
+                </div>
+                <div class="right-tab">
+                    <select name="gender" id="gender" class="dropdown">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="lgbt">LGBT</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label id="satisfaction-label" for="satisfaction">How are you satisfied with your current job?</label>
+                </div>
+                <div class="right-tab">
+                    <ul style="list-style: none;">
+                        <li class="radio">
+                            <label>Very satisfied 
+                                <input type="radio" name="radio-buttons" value="1" class="satisfaction">
+                            </label>
+                        </li>
+                        <li class="radio">
+                                <label>Somewhat satisfied 
+                                    <input type="radio" name="radio-buttons" value="2" class="satisfaction">
+                                </label>
+                        </li>
+                        <li class="radio">
+                                <label>Not really satisfied 
+                                    <input type="radio" name="radio-buttons" value="3" class="satisfaction">
+                                </label>
+                        </li>
+                        <li class="radio">
+                                <label>Not at all satisfied 
+                                    <input type="radio" name="radio-buttons" value="4" class="satisfaction">
+                                </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label id="priority-label" for="priority">What are your top 3 priorities when choosing a job?</label>
+                </div>
+                <div class="right-tab">
+                    <ul id="priority" style="list-style: none;">
+                        <li class="checkbox">
+                            <label>Remuneration 
+                                <input type="checkbox" name="prefer" value="1" class="satisfaction">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>Healthcare 
+                                <input type="checkbox" name="prefer" value="2" class="satisfaction">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>Environment 
+                                <input type="checkbox" name="prefer" value="3" class="satisfaction">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                            <label>Autonomy 
+                                <input type="checkbox" name="prefer" value="4" class="satisfaction">
+                            </label>
+                        </li>
+                        <li class="checkbox">
+                                <label>Work's meaning 
+                                    <input type="checkbox" name="prefer" value="5" class="satisfaction">
+                                </label>
+                            </li>
+                            <li class="checkbox">
+                                    <label>Working schedules 
+                                        <input type="checkbox" name="prefer" value="6" class="satisfaction">
+                                    </label>
+                                </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="label">
+                    <label for="job">What is your current job?</label>
+                </div>
+                <div class="right-tab">
+                    <textarea name="job" id="job-title" class="input-field" placeholder="Enter your job title here"></textarea>
+                </div>
+            </div>
+            <div>
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
